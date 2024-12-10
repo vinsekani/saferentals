@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+import { FaBookmark } from "react-icons/fa6";
+import { FaFacebookMessenger } from "react-icons/fa";
+import { CgProfile } from "react-icons/cg";
 
-export default function Nav() {
+export default function Nav2() {
   return (
     <>
       <nav className="bg-[#4D0909] text-white py-3">
@@ -18,19 +20,16 @@ export default function Nav() {
           </div>
 
           <div className="flex items-center space-x-6">
-            <Link to="/SignInPage">
-              {" "}
-              <button className="hover:underline">Sign In</button>
-            </Link>
-            <Link to="/Registerpage">
-              <button className="hover:underline">Register</button>
-            </Link>
-            <Link to="/Registerpage">
-              {" "}
-              <button className="bg-[#C33723] text-white font-bold py-2 px-4 rounded-md hover:bg-[#E0441F]">
-                + Add Listing
-              </button>
-            </Link>
+            <FaBookmark className="text-[20px]" />
+            <FaFacebookMessenger className="text-[20px]" />
+            <CgProfile className="text-[25px]" />
+
+            <a
+              href="#"
+              className="bg-[#C33723] text-white font-bold py-2 px-4 rounded-md hover:bg-[#E0441F]"
+            >
+              + Add Listing
+            </a>
           </div>
         </div>
       </nav>
