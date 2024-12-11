@@ -5,7 +5,7 @@ export default function Closedmessage() {
   return (
     <>
       <div className="h-screen bg-gray-100 flex">
-        {/* Sidebar */}
+
         <div className="lg:w-1/3 w-screen bg-white shadow-lg border-r">
           <div className="p-4 border-b flex items-center">
             <button className="text-lg font-bold text-gray-800 flex items-center">
@@ -14,13 +14,13 @@ export default function Closedmessage() {
             <h1 className="text-lg font-semibold text-gray-800">MY MESSAGES</h1>
           </div>
 
-          {/* Chat List */}
           <div className="divide-y divide-gray-200">
             {[...Array(4)].map((_, index) => (
               <div
                 key={index}
                 className={`p-4 flex items-center cursor-pointer ${
                   index === 0 ? "bg-gray-100" : "hover:bg-gray-100"
+            
                 }`}
               >
                 <div className="flex-shrink-0">
@@ -44,7 +44,6 @@ export default function Closedmessage() {
           </div>
         </div>
 
-        {/* Chat Window */}
         <div className="hidden flex-grow lg:flex flex-col items-center justify-between bg-gray-50">
           <div className="flex flex-col items-center justify-center">
        

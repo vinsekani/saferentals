@@ -1,9 +1,9 @@
 import Mysave from "../Comonents/Mysave";
 
-export default function Savepage(){
+export default function Savepage({savedItems,deleteItem}){
     return(
         <>
-        <Mysave/>
+        <Mysave savedItems={savedItems} deleteItem={deleteItem}/>
         </>
     )
 }

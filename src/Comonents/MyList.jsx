@@ -1,11 +1,13 @@
-import { FaBed } from "react-icons/fa";
-import { FaBath } from "react-icons/fa6";
-import { FaToilet } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { MdDeleteForever } from "react-icons/md";
+import { FaBed,FaBath,FaToilet,FaMapMarkerAlt } from "react-icons/fa";
+
 import Profile from "./Profile";
+import {Link} from "react-router-dom"
+import { MdDeleteForever } from "react-icons/md";
+
+
 
 export default function MyList() {
+  
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col md:flex-row items-start justify-center p-8 space-y-8 md:space-y-0 md:space-x-8">
       <div className="w-full md:w-1/3 bg-white rounded-lg shadow-md p-6">
@@ -107,9 +109,9 @@ export default function MyList() {
           </div>
         </div>
         <div className="items-center text-center">
-          <button className="text-center p-4 bg-orange-700 mt-5">
-            +Add Listing
-          </button>
+        <Link to="/Listingpage"> <button className="bg-[#C33723] text-white font-bold py-2 px-4 rounded-md hover:bg-[#E0441F] mt-7">
+                + Add Listing
+              </button></Link>
         </div>
       </div>
     </div>

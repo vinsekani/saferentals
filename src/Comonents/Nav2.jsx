@@ -1,6 +1,8 @@
 import { FaBookmark } from "react-icons/fa6";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
+import { Link } from "react-router-dom";
+
 
 export default function Nav2() {
   return (
@@ -8,11 +10,11 @@ export default function Nav2() {
       <nav className="bg-[#4D0909] text-white py-3">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <img
+            <Link to="/Loginhome"><img
               src="src/assets/orange-saferentals-high-resolution-logo-transparent (1).png"
               alt="Logo"
               className="h-8 w-[150px]"
-            />
+            /></Link>
           </div>
 
           <div>
@@ -20,16 +22,13 @@ export default function Nav2() {
           </div>
 
           <div className="flex items-center space-x-6">
-            <FaBookmark className="text-[20px]" />
-            <FaFacebookMessenger className="text-[20px]" />
-            <CgProfile className="text-[25px]" />
+        <Link to="/Savepage"><FaBookmark className="text-[20px]" /></Link>
+            <Link to="/Closedmessagepage"><FaFacebookMessenger className="text-[20px]" /></Link>
+           <Link to="/Profilepage"><CgProfile className="text-[25px]" /></Link>
 
-            <a
-              href="#"
-              className="bg-[#C33723] text-white font-bold py-2 px-4 rounded-md hover:bg-[#E0441F]"
-            >
-              + Add Listing
-            </a>
+           <Link to="/MyListPage"> <button className="bg-[#C33723] text-white font-bold py-2 px-4 rounded-md hover:bg-[#E0441F]">
+                My Listing
+              </button></Link>
           </div>
         </div>
       </nav>

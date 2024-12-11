@@ -2,7 +2,7 @@ import { FaBed } from "react-icons/fa";
 import { FaBath } from "react-icons/fa6";
 import { FaToilet } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaRegBookmark } from "react-icons/fa";
+import { MdBookmark } from "react-icons/md";
 
 export default function Latest() {
   return (
@@ -12,6 +12,8 @@ export default function Latest() {
           Latest Listed Rentals
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto px-4">
+          
+          <button>
           <div className="border-double border-4 border-[#470E0E] rounded-lg bg-white shadow-md overflow-hidden">
             <img
               src="src/assets/ap1.jpg"
@@ -23,10 +25,11 @@ export default function Latest() {
                 <h3 className="text-red-600 font-semibold text-lg">
                   Lovely 2Bedroom Rental House
                 </h3>
-                <FaRegBookmark />
+                <MdBookmark />
+
               </div>
 
-              <p className="text-sm text-gray-700 mt-2">
+              <p className="text-sm text-gray-700 mt-2 text-left">
                 6 bedroom house for sale in Runda. A lovely 6-bedroom
                 double-storey house on its own compound is available for sale in
                 Runda.
@@ -54,6 +57,9 @@ export default function Latest() {
             </div>
           </div>
 
+          </button>
+
+          <button>
           <div className="border-double border-4 border-[#470E0E] rounded-lg bg-white shadow-md overflow-hidden">
             <img
               src="src/assets/ap1.jpg"
@@ -65,10 +71,11 @@ export default function Latest() {
                 <h3 className="text-red-600 font-semibold text-lg">
                   Lovely 2Bedroom Rental House
                 </h3>
-                <FaRegBookmark />
+                <MdBookmark />
+
               </div>
 
-              <p className="text-sm text-gray-700 mt-2">
+              <p className="text-sm text-gray-700 mt-2 text-left">
                 6 bedroom house for sale in Runda. A lovely 6-bedroom
                 double-storey house on its own compound is available for sale in
                 Runda.
@@ -96,6 +103,9 @@ export default function Latest() {
             </div>
           </div>
 
+          </button>
+
+          <button>
           <div className="border-double border-4 border-[#470E0E] rounded-lg bg-white shadow-md overflow-hidden">
             <img
               src="src/assets/ap1.jpg"
@@ -107,10 +117,11 @@ export default function Latest() {
                 <h3 className="text-red-600 font-semibold text-lg">
                   Lovely 2Bedroom Rental House
                 </h3>
-                <FaRegBookmark />
+                <MdBookmark />
+
               </div>
 
-              <p className="text-sm text-gray-700 mt-2">
+              <p className="text-sm text-gray-700 mt-2 text-left">
                 6 bedroom house for sale in Runda. A lovely 6-bedroom
                 double-storey house on its own compound is available for sale in
                 Runda.
@@ -138,6 +149,9 @@ export default function Latest() {
             </div>
           </div>
 
+          </button>
+
+          <button>
           <div className="border-double border-4 border-[#470E0E] rounded-lg bg-white shadow-md overflow-hidden">
             <img
               src="src/assets/ap1.jpg"
@@ -149,10 +163,11 @@ export default function Latest() {
                 <h3 className="text-red-600 font-semibold text-lg">
                   Lovely 2Bedroom Rental House
                 </h3>
-                <FaRegBookmark />
+                <MdBookmark />
+
               </div>
 
-              <p className="text-sm text-gray-700 mt-2">
+              <p className="text-sm text-gray-700 mt-2 text-left">
                 6 bedroom house for sale in Runda. A lovely 6-bedroom
                 double-storey house on its own compound is available for sale in
                 Runda.
@@ -180,6 +195,9 @@ export default function Latest() {
             </div>
           </div>
 
+          </button>
+
+          <button>
           <div className="border-double border-4 border-[#470E0E] rounded-lg bg-white shadow-md overflow-hidden">
             <img
               src="src/assets/ap1.jpg"
@@ -191,10 +209,11 @@ export default function Latest() {
                 <h3 className="text-red-600 font-semibold text-lg">
                   Lovely 2Bedroom Rental House
                 </h3>
-                <FaRegBookmark />
+                <MdBookmark />
+
               </div>
 
-              <p className="text-sm text-gray-700 mt-2">
+              <p className="text-sm text-gray-700 mt-2 text-left">
                 6 bedroom house for sale in Runda. A lovely 6-bedroom
                 double-storey house on its own compound is available for sale in
                 Runda.
@@ -222,6 +241,9 @@ export default function Latest() {
             </div>
           </div>
 
+          </button>
+
+          <button>
           <div className="border-double border-4 border-[#470E0E] rounded-lg bg-white shadow-md overflow-hidden">
             <img
               src="src/assets/ap1.jpg"
@@ -233,10 +255,11 @@ export default function Latest() {
                 <h3 className="text-red-600 font-semibold text-lg">
                   Lovely 2Bedroom Rental House
                 </h3>
-                <FaRegBookmark />
+                <MdBookmark />
+
               </div>
 
-              <p className="text-sm text-gray-700 mt-2">
+              <p className="text-sm text-gray-700 mt-2 text-left">
                 6 bedroom house for sale in Runda. A lovely 6-bedroom
                 double-storey house on its own compound is available for sale in
                 Runda.
@@ -263,6 +286,8 @@ export default function Latest() {
               </span>
             </div>
           </div>
+
+          </button>
         </div>
       </div>
     </>
