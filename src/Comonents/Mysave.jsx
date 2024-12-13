@@ -19,14 +19,16 @@ export default function Save({ savedItems,deleteItem}) {
             >
               <div className="relative lg:flex gap-[10px]">
                 <img
-                  src={item.image}
+                  src={item.images[0]}
                   alt="Rental House"
                   className="w-full h-48 object-cover"
                 />
+                            {console.log(item)}
+
                 <div className="p-4">
                 <div className="flex justify-between items-center">
                 <h3 className="text-red-600 font-semibold text-lg">
-                  {item.title}
+                  {item.type}
                 </h3>
                 <MdDelete
                   className="text-red-500 cursor-pointer text-[20px]"
@@ -48,13 +50,13 @@ export default function Save({ savedItems,deleteItem}) {
               </div>
               <div className="bg-[#470E0E] text-white text-sm p-3 flex justify-between items-center">
                 <span className="flex items-center">
-                  <FaBed /> {item.bedrooms} Bedrooms
+                  <FaBed /> {item.bedrooms}
                 </span>
                 <span className="flex items-center">
-                  <FaBath /> {item.bathrooms} Bathrooms
+                  <FaBath /> {item.bathrooms}
                 </span>
                 <span className="flex items-center">
-                  <FaToilet /> {item.toilets} Toilets
+                  <FaToilet /> {item.toilets}
                 </span>
               </div>
             </div>
